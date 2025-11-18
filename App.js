@@ -8,6 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <h1>Welcome to the Plant Shop 🌿</h1>
+
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/products" element={<ProductListingPage />} />
