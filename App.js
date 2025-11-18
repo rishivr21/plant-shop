@@ -1,3 +1,5 @@
+// This is a feature update test change
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import ProductListingPage from "./pages/ProductListingPage";
@@ -8,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <h1>Welcome to the Plant Shop 🌿</h1>
+      <h1>Welcome to the Updated Plant Shop 🌱 (Feature Update)</h1>
 
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -20,4 +22,3 @@ function App() {
 }
 
 export default App;
-
